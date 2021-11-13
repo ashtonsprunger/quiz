@@ -1,0 +1,79 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+.option {
+  background-color: white;
+  border: 2px solid black;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1em;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 0.5em;
+}
+
+#name {
+  background-color: white;
+  border: 2px solid black;
+  width: calc(100vw - 6em);
+  margin-bottom: 1rem;
+  padding: 1em;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 0.5em;
+}
+
+#calculate {
+  background-color: white;
+  border: 2px solid black;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1em;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 0.5em;
+}
+
+.section {
+  background-color: rgb(233, 233, 233);
+  padding: 1em 1em 0;
+  margin: 1em;
+  border-radius: 1em;
+}
+
+.q {
+  margin-bottom: 1em;
+}
+
+.result {
+  background-color: lightgray;
+  border: 2px solid white;
+  padding: 1em;
+  color: white;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.color {
+  background-color: rgb(150, 150, 255);
+  border: 2px solid white;
+  padding: 1em;
+  color: white;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.last {
+  padding-bottom: 1em;
+}
+
+.first {
+  padding-bottom: 1em;
+  background-color: rgb(150, 150, 255);
+  font-size: large;
+}

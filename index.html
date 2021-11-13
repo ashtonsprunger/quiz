@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="section first"><h3>Welcome to the "your mood in the morning" quiz!!</h3></div>
+    <div class="section">
+        <h3 class="q">Before we begin, enter your first name.</h3>
+        <input type="text" id="name" placeholder="First name">
+    </div>
+    <div class="section">
+        <h3 class="q">How alert do you feel during the first half hour after you wake up?</h3>
+        <button class="option">Not at all alert</button>
+        <button class="option">Slightly alert</button>
+        <button class="option">Fairly alert</button>
+        <button class="option">Very alert</button>
+    </div>
+    <div class="section">
+        <h3 class="q">How hungry do you feel during the first half hour after you wake up?</h3>
+        <button class="option">Not at all hungry</button>
+        <button class="option">Slightly hungry</button>
+        <button class="option">Fairly hungry</button>
+        <button class="option">Very hungry</button>
+    </div>
+    <div class="section">
+        <h3 class="q">If you went to bed at 10 p.m. how tired would you be?</h3>
+        <button class="option">Not at all tired</button>
+        <button class="option">A little tired</button>
+        <button class="option">Fairly tired</button>
+        <button class="option">Very tired</button>
+    </div>
+    <div class="section">
+        <h3 class="q">What time of day would you prefer to take an exam?</h3>
+        <button class="option">8 a.m. - 10 a.m.</button>
+        <button class="option">11 a.m. - 1 p.m.</button>
+        <button class="option">3 p.m. - 5 p.m.</button>
+        <button class="option">7 p.m. - 9 p.m.</button>
+    </div>
+    <div class="section">
+        <h3 class="q">Do you consider yourself to be a "morning" or "evening" type of person?</h3>
+        <button class="option">Evening</button>
+        <button class="option">More evening than morning</button>
+        <button class="option">More morning than evening</button>
+        <button class="option">Morning</button>
+    </div>
+    <div class="section last">
+        <h3 class="q">Hello <span id="greeting"></span>, click 'CALCULATE' to find out your mood in the morning!</h3>
+        <button id="calculate">CALCULATE!</button>
+        <h3 class="result">‏‏‎ ‎</h3>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
