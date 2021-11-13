@@ -3,6 +3,7 @@ const calculate = document.getElementById("calculate");
 const name = document.getElementById("name");
 const resultEl = document.getElementsByClassName("result")[0];
 const greeting = document.getElementById("greeting");
+const form = document.querySelector("form");
 
 const results = {
   autumn: "CrabCakes",
@@ -17,6 +18,11 @@ const otherResults = [
   "Ready to go",
   "Still asleep",
 ];
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  options[0].focus();
+});
 
 name.addEventListener("keyup", () => {
   greeting.innerHTML =
