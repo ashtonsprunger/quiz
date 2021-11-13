@@ -75,5 +75,6 @@
 .first {
   padding-bottom: 1em;
   background-color: rgb(150, 150, 255);
+  color: white;
   font-size: large;
 }
